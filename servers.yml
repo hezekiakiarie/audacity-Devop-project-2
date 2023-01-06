@@ -131,7 +131,10 @@ Resources:
         Fn::ImportValue:
           Fn::Sub: "${EnvironmentName}-VPCID"
 
-
+Outputs:
+  LoadBalancerDNSEntry:
+    Description: DNS Entry for reaching the LoadBalancer
+    Value: !Sub "http://${WebServerLoadBalancer.DNSName}"
 
 
 
