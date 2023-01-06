@@ -19,5 +19,3 @@ Example:
 ./create.sh Udagram infra/servers.yaml servers/infra.json
 It creates a CloudFormation stack named Udagram, with infrastructure described in .yaml and .json files, AWS-region is specified in the bash script.
 
-Website Link :
-http://udagram-820382128.us-eastS-2.elb.amazonaws.com
