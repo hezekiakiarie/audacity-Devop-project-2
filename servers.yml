@@ -134,7 +134,7 @@ Resources:
 Outputs:
   LoadBalancerDNSEntry:
     Description: DNS Entry for reaching the LoadBalancer
-    Value: !Sub "http://${WebServerLoadBalancer.DNSName}"
+    Value: !Sub "demo5-WebAp-TW0U162JY2NY-1498881007.us-east-1.elb.amazonaws.com"
 
 
 
